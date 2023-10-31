@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* // header part  */
+body{
+    background-color: rgb(20, 20, 20);
+    position: relative;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+
+  position: sticky;
+    left: 0;
+    top: 0;
+}
+.header_left h2{
+   font-size: 1.5rem;
+   font-family:monospace;
+   color: white;
+}
+.header_right{
+    display: inherit;
+    gap: 5px;
+}
+.header_right i{
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* // quads section  */
+
+.post_quad{
+    display: flex;
+    flex-direction: column;
+}
+.quad{
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 1rem;
+
+    position: sticky;
+    left: 0;
+    top: 60px;
+}
+.quad_text{
+    font-size: 0.9rem;
+    font-family: arial;
+    font-weight: 300;
+     text-align: center;
+     color: whitesmoke;
+}
+
+/* // post section  */
+.instance{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 90vh;
+    overflow-y: scroll;
+}
+.tabs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.tab{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 1rem;
+
+}
+.tab_active{
+    border-bottom: 2px solid rgb(26, 26, 209);
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* // post card */
+
+.post_card{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 0.3rem;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px -1px gray;
+    margin-top: 10px;
+}
+.post_detail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.post_detail_right i{
+  font-size: 1.5rem;
+}
+.post_data{
+    height: 15rem;
+}
+.fun{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.fun_left{
+    display: inherit;
+    gap: 10px;
+}
+.fun_left i,.fun_right i{
+    font-size: 1.5rem;
+}
+
+/* // taskbar  */
+
+.taskbar_container{
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.taskbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    padding: 0.7rem;
+    background-color: black;
+    border-radius: 50px;
+}
+.taskbar i{
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
