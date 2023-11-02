@@ -1,3 +1,5 @@
+@import "./font.css";
+
 *{
     padding: 0;
     margin: 0;
@@ -21,8 +23,8 @@ header{
     top: 0;
 }
 .header_left h2{
-   font-size: 1.5rem;
-   font-family:monospace;
+   font-size: 1.7rem;
+   font-family:var(--prefont);
    color: white;
 }
 .header_right{
@@ -30,7 +32,8 @@ header{
     gap: 5px;
 }
 .header_right i{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+    font-weight: 300;
     color: white;
 }
 
@@ -55,7 +58,7 @@ header{
 }
 .quad_text{
     font-size: 0.9rem;
-    font-family: arial;
+    font-family: var(--scripttext);
     font-weight: 300;
      text-align: center;
      color: whitesmoke;
@@ -69,7 +72,6 @@ header{
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     height: 90vh;
-    overflow-y: scroll;
 }
 .tabs{
     display: flex;
@@ -85,7 +87,7 @@ header{
     justify-content: center;
     font-size: 1rem;
     padding: 1rem;
-
+    font-family: var(--option);
 }
 .tab_active{
     border-bottom: 2px solid rgb(26, 26, 209);
@@ -93,9 +95,9 @@ header{
 .post{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-items: center;
     gap: 1rem;
+    overflow: scroll;
 }
 
 /* // post card */
@@ -148,7 +150,6 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
 }
 .taskbar{
     display: flex;
@@ -159,6 +160,8 @@ header{
     padding: 0.7rem;
     background-color: black;
     border-radius: 50px;
+    box-shadow: 0px 0px 6px 2px gray;
+
 }
 .taskbar i{
     color: whitesmoke;

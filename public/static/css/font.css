@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=DM+Sans:opsz,wght@9..40,200&family=Edu+SA+Beginner:wght@500&family=Heebo:wght@300;400;800&family=Noto+Sans:wght@300;400&family=Pacifico&family=Poppins:wght@600&family=Rubik:wght@300;500&family=Sansita:wght@400;700&family=Sedgwick+Ave+Display&family=Tilt+Prism&family=Titillium+Web:wght@400;700&display=swap');
+
+
+/* font-family: 'DM Sans', sans-serif;
+font-family: 'Edu SA Beginner', cursive;
+font-family: 'Heebo', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Sansita', sans-serif;
+font-family: 'Sedgwick Ave Display', cursive;
+font-family: 'Tilt Prism', sans-serif;
+font-family: 'Titillium Web', sans-serif; */
+
+
+:root{
+    --precolor:rgb(8, 14, 26);
+    --prefont:Sansita;
+    --option:rubik;
+    --scripttext:heebo;
+    --white:rgba(255, 255, 255, 0.959);
+    --hoverColor:rgba(34, 34, 241, 0.877);
+}
