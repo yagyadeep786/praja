@@ -72,6 +72,7 @@ header{
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     height: 90vh;
+    position: relative;
 }
 .tabs{
     display: flex;
@@ -105,8 +106,8 @@ header{
 .post_card{
     display: flex;
     flex-direction: column;
-    width: 90%;
-    padding: 0.3rem;
+    width: 89%;
+    padding: 0.5rem;
     border-radius: 10px;
     box-shadow: 0px 3px 10px -1px gray;
     margin-top: 10px;
@@ -117,11 +118,29 @@ header{
     align-items: center;
     justify-content: space-between;
 }
+.post_detail_left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+.img{
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: 2px solid var(--hoverColor);
+}
+.username, .user_detail p{
+    font-family: var(--option);
+    font-size: 0.9rem;
+}
 .post_detail_right i{
   font-size: 1.5rem;
 }
 .post_data{
-    height: 15rem;
+    height: 17rem;
 }
 .fun{
     display: flex;
@@ -157,13 +176,30 @@ header{
     align-items: center;
     justify-content: space-between;
     width: 85%;
-    padding: 0.7rem;
     background-color: black;
     border-radius: 50px;
     box-shadow: 0px 0px 6px 2px gray;
-
+   padding: 7px;
 }
 .taskbar i{
     color: whitesmoke;
     font-size: 1.5rem;
+    padding: 0.8rem;
+}
+.taskbar_active{
+    background-color: var(--hoverColor);
+    border-radius: 50%;
+}
+
+/* // thumb  */
+
+.thumb{
+    position: absolute;
+    height: 10px;
+    width: 40px;
+    background-color: white;
+    box-shadow: inset 0px 0px 7px 0px gray;
+    top: 5px;
+    left: 45%;
+    border-radius: 50px;
 }
