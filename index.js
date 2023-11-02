@@ -10,6 +10,10 @@ app.get("/",(req,res)=>{
     res.render("home");
 })
 
+app.get("/chat",(req,res)=>{
+    res.render("chat");
+})
+
 app.listen(5000,()=>{
     console.log("I am running on port 5000");
 })
