@@ -47,3 +47,72 @@
     outline: none;
     padding: 0px 5px;
 }
+
+/* // chat day */
+
+
+.chat_day{
+    position: absolute;
+    height: 15px;
+    width: 60px;
+    background-color: var(--precolor);
+    box-shadow: inset 0px 0px 7px 0px gray;
+    top: 5px;
+    left: 40%;
+    border-radius: 50px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2rem 0.4rem;
+    font-family: var(--scripttext);
+    
+}
+
+/* // my text chat  */
+
+.chat_box{
+    display: flex;
+    flex-direction: column;
+    height: 88%;
+    padding: 0rem 1rem;
+    overflow-y: scroll;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.chat_line{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.my_textchat .text{
+    padding: 0.4rem 0.7rem;
+    font-size: 1rem;
+    font-family: var(--scripttext);
+    color: rgba(0, 0, 0, 0.89);
+    background-color: rgb(206, 208, 209);
+    width: fit-content;
+    border-radius: 10px;
+}
+.my_textchat .time{
+    font-family: var(--scripttext);
+    margin: 3px 5px;
+    color: gray;
+}
+
+/* // other text chat  */
+
+
+.my{
+    text-align: right;
+    justify-content: flex-end;
+}
+
+.other .my_textchat .text{
+    background-color: rgba(138, 138, 247, 0.959);
+    justify-content: flex-start;
+}
