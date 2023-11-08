@@ -1,0 +1,62 @@
+.connection{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0.6rem;
+    background-color: rgb(193 189 189 / 29%);
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.user:hover{
+    background-color: rgba(135, 207, 235, 0.801);
+}
+.user_left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.status{
+    font-family: var(--scripttext);
+    font-size: 0.8rem;
+    color: rgb(158, 157, 157);
+    margin-left: 5px;
+}
+.profile_name{
+    font-size: 1rem;
+    font-family: var(--scripttext);
+    color: rgb(68, 67, 67);
+    margin-left: 5px;
+}
+.profile_img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid var(--hoverColor);
+    background-position: center;
+    background-size: cover;
+}
+.user_right{
+  background-color: rgb(28, 211, 28);
+  color: whitesmoke;
+  padding: 4px 5px;
+  font-size: 0.9rem;
+  font-family: var(--scripttext);
+  border-radius: 50%;
+}
+
+.back{
+    color: whitesmoke;
+    font-size: 2rem;
+}
+.header_left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}

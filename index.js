@@ -14,6 +14,9 @@ app.get("/chat",(req,res)=>{
     res.render("chat");
 })
 
+app.get("/message",(req,res)=>{
+    res.render("message");
+})
 app.listen(5000,()=>{
     console.log("I am running on port 5000");
 })

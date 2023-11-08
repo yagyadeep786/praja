@@ -116,3 +116,44 @@
     background-color: rgba(138, 138, 247, 0.959);
     justify-content: flex-start;
 }
+
+.header_left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.profile_img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid var(--hoverColor);
+    background-position: center;
+    background-size: cover;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+}
+.profile_name{
+    font-size: 1rem;
+    font-family: var(--scripttext);
+    color: whitesmoke;
+    margin-left: 5px;
+}
+
+.instance{
+    height: 85vh;
+}
+
+.back{
+    color: whitesmoke;
+    font-size: 2rem;
+}
+.status{
+    font-family: var(--scripttext);
+    font-size: 0.8rem;
+    color: rgb(158, 157, 157);
+    margin-left: 5px;
+}
